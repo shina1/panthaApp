@@ -493,7 +493,7 @@ body {
     margin-left: 250px;
   }
 }
-@media screen and (max-width: 760px) {
+/* @media screen and (max-width: 760px) {
   body {
     border: 2px solid blue;
     max-width: 700px;
@@ -523,4 +523,4 @@ body {
   .btn-sub {
     width: 30% !important;
   }
-}
+} */
