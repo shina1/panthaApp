@@ -40,7 +40,9 @@ body {
   margin: 0 auto;
 }
 /* ======================= settings end ===================== */
-
+.navbar-nav {
+  margin: 0 auto;
+}
 /* +++++++++++++++++++++++ Banner section ++++++++++++++++++++++++++++++ */
 .banner {
   width: 100%;
@@ -50,6 +52,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-top: 100px;
 }
 
 .hd-lft {
@@ -92,7 +95,7 @@ body {
   display: inline-block;
   background: #ffa500;
   padding: 10px;
-  width: 250px !important;
+  width: 70% !important;
   text-align: center;
   margin: 20px 0;
 }
@@ -149,7 +152,7 @@ body {
   background: var(--colorDarkBlue);
   border-radius: 8px;
   color: var(--colorWhite);
-  width: 250px;
+  width: 70%;
   margin-top: 10px;
 }
 /* ############################ how it works section ################################ */
@@ -300,17 +303,19 @@ body {
   background-color: #ffa500;
 }
 .btn-signup {
-  width: 250px;
+  width: 70%;
   background: #ffa500;
   border-radius: 8px;
   margin-top: 20px;
 }
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Footer section styling %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 .footer {
+  width: 100%;
   height: auto;
   background: #3f3356;
   color: #fff;
 }
+
 .footer p {
   font-style: normal;
   font-weight: 400;
@@ -491,6 +496,11 @@ body {
   }
   .navbar-nav {
     margin-left: 250px;
+  }
+  .footer img {
+    height: 20px;
+    width: 100px;
+    margin: 10px;
   }
 }
 /* @media screen and (max-width: 760px) {
