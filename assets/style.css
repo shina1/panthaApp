@@ -32,7 +32,6 @@ ul li a {
   color: #3f3356;
 }
 body {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   max-width: 370px;
@@ -40,9 +39,6 @@ body {
   margin: 0 auto;
 }
 /* ======================= settings end ===================== */
-.navbar-nav {
-  margin: 0 auto;
-}
 /* +++++++++++++++++++++++ Banner section ++++++++++++++++++++++++++++++ */
 .banner {
   width: 100%;
@@ -54,7 +50,10 @@ body {
   background-position: center;
   margin-top: 100px;
 }
-
+.footer img {
+  display: inline-block;
+  height: 120px;
+}
 .hd-lft {
   width: 90%;
   margin: 0 auto;
@@ -246,9 +245,7 @@ body {
   background-size: contain;
   background-position: center;
 }
-.ft-rgt-btm p {
-  display: none;
-}
+
 .features {
   margin-top: 150px;
 }
@@ -352,16 +349,15 @@ body {
 }
 
 .input-wrap {
+  flex-direction: column !important;
   background: #fafafa;
   border-radius: 8px;
   width: 100%;
-  /* justify-content: center;
-  align-items: center; */
   height: 50px;
-  margin: 10px 0;
+  margin: 10px 0 20px 0;
 }
 .input-wrap input {
-  width: 70%;
+  width: 100%;
   padding: 10px;
   border: none;
 }
@@ -369,11 +365,11 @@ body {
   font-size: 15px;
   background: #ffa500;
   height: 50px;
-  width: 30%;
+  width: 100%;
 }
 .copy {
   border-top: 0.4px solid #ffffff;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .copy h5 {
   font-family: Open Sans;
@@ -381,11 +377,12 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 140.68%;
+  padding-top: 10px;
 }
 
 /* ==================== responsiveness styling ===================== */
 
-@media (min-width: 560px) {
+@media screen and (min-width: 575px) {
   body {
     max-width: 1400px;
     padding: 0 20px;
@@ -402,22 +399,7 @@ body {
     width: 30%;
     margin-top: 80px;
   }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background: #fff !important;
-  }
-  .navbar-nav {
-    margin-left: 750px;
-  }
-  .navbar-nav a {
-    margin: 10px;
-    color: #3f3356 !important;
-  }
-  .navbar a:hover {
-    color: #ffa500 important;
-  }
+
   .banner {
     height: 78vh;
   }
@@ -493,14 +475,6 @@ body {
   }
   .hd-rgt {
     width: 90%;
-  }
-  .navbar-nav {
-    margin-left: 250px;
-  }
-  .footer img {
-    height: 20px;
-    width: 100px;
-    margin: 10px;
   }
 }
 /* @media screen and (max-width: 760px) {

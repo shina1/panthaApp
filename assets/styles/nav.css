@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"); */
+:root {
+  --colorWhite: #fafafa;
+  --colorDarkBlue: #3f3356;
+}
+
 .navbar {
   background-color: #ffffff !important;
   padding-left: 80px;
@@ -15,29 +20,37 @@
 }
 
 nav ul li {
-  font-family: "Roboto", sans-serif;
+  font-family: Open Sans;
   font-size: 18px;
-  color: #04172a;
+  color: var(--colorDarkBlue);
   padding-right: 1.4rem;
   font-weight: 900 !important;
 }
 nav ul li a:hover {
-  color: #04172a;
+  color: #ffc14d !important;
+  border-bottom: 0.5px solid var(--colorDarkBlue);
+}
+nav ul li a img:hover {
+  color: #ffc14d !important;
 }
 
 nav ul li a {
   font-weight: 500 !important;
-  color: #04172a;
+  color: var(--colorDarkBlue);
+}
+.logo img {
+  display: inline-block;
+  height: 80px;
 }
 .nav-btn {
   width: 90px !important;
   height: 50px !important;
   border-radius: 10px;
-  background: #fb3f5c;
-  font-family: "Roboto, sans-serif";
+  background: #ffc14d;
+  font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 10px;
   border: 0;
   outline: 0;
   padding: 6px 24px;
@@ -57,7 +70,7 @@ nav ul li a {
 .menu-btn__burger {
   width: 32px;
   height: 6px;
-  background: black;
+  background: var(--colorDarkBlue);
   border-radius: 5px;
 
   transition: all 0.5s ease-in-out;
@@ -69,7 +82,7 @@ nav ul li a {
   position: absolute;
   width: 32px;
   height: 6px;
-  background: black;
+  background: var(--colorDarkBlue);
   border-radius: 5px;
 
   transition: all 0.5s ease-in-out;
