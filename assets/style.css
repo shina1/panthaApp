@@ -413,7 +413,7 @@ body {
     display: block;
     font-size: 24px;
     line-height: 41px;
-    width: 550px;
+    width: 100%;
     margin-top: 20px;
   }
   .text h1 {
@@ -421,7 +421,7 @@ body {
     font-weight: 550;
     font-size: 48px;
     line-height: 45px;
-    width: 600px;
+    width: 100%;
     padding: 10px;
     margin: 10px;
   }
