@@ -107,3 +107,36 @@
     transform: translate(0);
   }
 }
+
+/* button breathing animation */
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  25% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+/* animation for glowing button */
+@keyframes glow {
+  from {
+    background-color: #3f3356;
+    box-shadow: 0 0 9px #333;
+  }
+  50% {
+    background-color: #ffa500;
+    box-shadow: 0 0 18px #91bd09;
+  }
+  to {
+    background-color: #3f3356;
+    box-shadow: 0 0 9px #333;
+  }
+}

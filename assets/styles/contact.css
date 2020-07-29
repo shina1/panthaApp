@@ -152,6 +152,13 @@ h2 {
   line-height: 36px;
   color: #ffffff;
 }
+/* breathing button animation */
+#breath {
+  -webkit-animation: breathing 3s ease-out infinite normal;
+  animation: breathing 3s ease-out infinite normal;
+  -webkit-font-smoothing: antialiased;
+}
+
 @media screen and (min-width: 575px) {
   .cont-wrapper {
     max-width: 1400px;

@@ -148,6 +148,11 @@ body {
   width: 70%;
   margin-top: 10px;
 }
+#glow-btn {
+  animation-name: glow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
 /* ############################ how it works section ################################ */
 
 .board-wrapper h2 {
