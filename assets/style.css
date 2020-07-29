@@ -65,8 +65,6 @@ body {
 }
 .text h1 {
   display: block;
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
@@ -82,8 +80,6 @@ body {
 }
 .text p {
   display: block;
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 40px;
@@ -116,8 +112,6 @@ body {
   border-radius: 8px 8px 0 0;
 }
 .card-header span {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 44px;
@@ -125,8 +119,6 @@ body {
   color: var(--colorDarkBlue);
 }
 .form-group label {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
@@ -159,8 +151,6 @@ body {
 /* ############################ how it works section ################################ */
 
 .board-wrapper h2 {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: 550;
   font-size: 35px;
   line-height: 41px;
@@ -180,8 +170,6 @@ body {
   height: 70px;
 }
 .board-wrapper p {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
@@ -206,8 +194,6 @@ body {
   padding: 20px;
 }
 .mission h3 {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: 600;
   font-size: 35px;
   line-height: 39px;
@@ -216,8 +202,6 @@ body {
 }
 .mission p {
   display: block;
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 39px;
@@ -252,8 +236,6 @@ body {
   margin-top: 150px;
 }
 .features h3 {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: 600;
   font-size: 30px;
   line-height: 41px;
@@ -262,8 +244,6 @@ body {
 }
 .features p {
   display: block;
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 40px;
@@ -277,8 +257,6 @@ body {
   padding: 20px;
 }
 .signup-txt h3 {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: bold;
   font-size: 35px;
   line-height: 140.68%;
@@ -374,8 +352,6 @@ body {
   margin-top: 60px;
 }
 .copy h5 {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 140.68%;
