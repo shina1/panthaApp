@@ -123,8 +123,12 @@ nav ul li a {
   .navbar {
     align-items: center;
   }
+  .navbar ul {
+    margin: 0 auto;
+    padding: 10px;
+  }
   .navbar ul li {
-    margin-left: 120px;
+    /* margin-left: 120px; */
     margin-bottom: 10px;
   }
   .nav-btn {
