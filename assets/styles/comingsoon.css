@@ -114,15 +114,16 @@ h1 {
   .wrap {
     padding: 20px;
     max-width: 1400px;
-    /* border: 2px solid red; */
     margin: 0 auto;
-    height: 810px;
+    height: 100%;
   }
   .cms-lft {
-    padding: 30px;
+    padding: 10px 30px;
+    margin: 0 auto;
   }
   .cms-rgt {
-    padding: 30px;
+    padding: 10px 30px;
+    margin: 0 auto;
   }
   #clockdiv {
     margin-left: 80px;
