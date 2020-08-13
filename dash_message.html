@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="assets/fonts/fontawesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/styles/bootstrap-css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/styles/bootstrap-css/animation.css" />
+    <link rel="stylesheet" href="assets/styles/dashboard.css" />
+    <title>Pantha | Dashboard</title>
+  </head>
+  <body>
+    <!-- <div class="loader-bg">
+        <div class="loader"></div>
+      </div> -->
+    <div class="dash-wrap">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <button class="navbar-toggler sideMenuToggler" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"
+          ><img src="assets/img/newLogo.svg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto nav-top">
+            <li class="nav-item">
+              <a class="nav-link" href="#"> <i class="fa fa-bell"></i></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <span>Genesis Anosike</span>
+              </a>
+              <small>Member</small>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="wrapper d-flex">
+        <!-- side menu -->
+        <div class="sideMenu">
+          <div class="sidebar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="dashboard.html" class="nav-link px-2"
+                  ><i class="fa fa-user"></i
+                  ><span class="text">Profile</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="dash_message.html" class="nav-link px-2"
+                  ><i class="fa fa-envelope-o"></i
+                  ><span class="text">Message</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-2"
+                  ><i class="fa fa-mobile-phone"></i
+                  ><span class="text">charts</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-2"
+                  ><i class="fa fa-gears"></i
+                  ><span class="text">Settings</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link sideMenuToggler px-2"
+                  ><i class="fa fa-list-ul"></i
+                  ><span class="text">Resize</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- side menu ends -->
+        <!-- content section -->
+        <div class="content msg">
+          <main class="cont">
+            <div class="container-fluid m-auto">
+              <div class="row">
+                <aside
+                  class="col-md-10 col-lg-4 my-3 text-center msg-side bg p-4"
+                >
+                  <div class="allMsg-top d-flex">
+                    <span> All Messages</span>
+                    <i class="fa fa-plus-square"></i>
+                  </div>
+                  <div class="all-msg-box">
+                    <!-- search input -->
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1"
+                          ><i class="fa fa-search"></i
+                        ></span>
+                      </div>
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Search users"
+                        aria-label="Username"
+                        aria-describedby="basic-addon1"
+                      />
+                    </div>
+                    <div class="msg-box bg d-flex">
+                      <div class="user">
+                        <img src="assets/img/profile-pic.svg" alt="" />
+                        <div class="txt">
+                          <h4>John Doe</h4>
+                          <span>UI UX Designer</span>
+                        </div>
+                      </div>
+                      <div class="status">
+                        <small>Online</small>
+                      </div>
+                    </div>
+                    <div class="msg-box bg d-flex">
+                      <div class="user">
+                        <img src="assets/img/profile-pic.svg" alt="" />
+                        <div class="txt">
+                          <h4>John Doe</h4>
+                          <span>Frontend</span>
+                        </div>
+                      </div>
+                      <div class="status">
+                        <small>Last seen 2:20PM</small>
+                      </div>
+                    </div>
+                    <div class="msg-box bg d-flex">
+                      <div class="user">
+                        <img src="assets/img/profile-pic.svg" alt="" />
+                        <div class="txt">
+                          <h4>John Doe</h4>
+                          <span>Backend</span>
+                        </div>
+                      </div>
+                      <div class="status">
+                        <small>Last seen 2:20PM</small>
+                      </div>
+                    </div>
+                    <div class="msg-box bg d-flex">
+                      <div class="user">
+                        <img src="assets/img/profile-pic.svg" alt="" />
+                        <div class="txt">
+                          <h4>John Doe</h4>
+                          <span>Mobile</span>
+                        </div>
+                      </div>
+                      <div class="status">
+                        <small>Last seen 2:20PM</small>
+                      </div>
+                    </div>
+                    <div class="msg-box bg d-flex">
+                      <div class="user">
+                        <img src="assets/img/profile-pic.svg" alt="" />
+                        <div class="txt">
+                          <h4>John Doe</h4>
+                          <span>UI UX Designer</span>
+                        </div>
+                      </div>
+                      <div class="status">
+                        <small>Last seen 2:20PM</small>
+                      </div>
+                    </div>
+                    <div class="msg-box bg d-flex">
+                      <div class="user">
+                        <img src="assets/img/profile-pic.svg" alt="" />
+                        <div class="txt">
+                          <h4>John Doe</h4>
+                          <span>UI UX Designer</span>
+                        </div>
+                      </div>
+                      <div class="status">
+                        <small>Last seen 2:20PM</small>
+                      </div>
+                    </div>
+                    <div class="msg-box bg d-flex">
+                      <div class="user">
+                        <img src="assets/img/profile-pic.svg" alt="" />
+                        <div class="txt">
+                          <h4>John Doe</h4>
+                          <span>UI UX Designer</span>
+                        </div>
+                      </div>
+                      <div class="status">
+                        <small>Last seen 2:20PM</small>
+                      </div>
+                    </div>
+                    <div class="msg-box bg d-flex">
+                      <div class="user">
+                        <img src="assets/img/profile-pic.svg" alt="" />
+                        <div class="txt">
+                          <h4>John Doe</h4>
+                          <span>Backend</span>
+                        </div>
+                      </div>
+                      <div class="status">
+                        <small>Last seen 2:20PM</small>
+                      </div>
+                    </div>
+                    <div class="msg-box bg d-flex">
+                      <div class="user">
+                        <img src="assets/img/profile-pic.svg" alt="" />
+                        <div class="txt">
+                          <h4>John Doe</h4>
+                          <span>Mobile</span>
+                        </div>
+                      </div>
+                      <div class="status">
+                        <small>Last seen 2:20PM</small>
+                      </div>
+                    </div>
+                    <div class="msg-box bg d-flex">
+                      <div class="user">
+                        <img src="assets/img/profile-pic.svg" alt="" />
+                        <div class="txt">
+                          <h4>John Doe</h4>
+                          <span>UI UX Designer</span>
+                        </div>
+                      </div>
+                      <div class="status">
+                        <small>Last seen 2:20PM</small>
+                      </div>
+                    </div>
+                    <div class="msg-box bg d-flex">
+                      <div class="user">
+                        <img src="assets/img/profile-pic.svg" alt="" />
+                        <div class="txt">
+                          <h4>John Doe</h4>
+                          <span>UI UX Designer</span>
+                        </div>
+                      </div>
+                      <div class="status">
+                        <small>Last seen 2:20PM</small>
+                      </div>
+                    </div>
+                    <div class="msg-box bg d-flex">
+                      <div class="user">
+                        <img src="assets/img/profile-pic.svg" alt="" />
+                        <div class="txt">
+                          <h4>John Doe</h4>
+                          <span>UI UX Designer</span>
+                        </div>
+                      </div>
+                      <div class="status">
+                        <small>Last seen 2:20PM</small>
+                      </div>
+                    </div>
+                  </div>
+                </aside>
+                <!-- the caht section -->
+                <section class="col-md-12 col-lg-8 my-3 m-auto chats">
+                  <div class="chat-head bg-wte d-flex">
+                    <div class="head-lft d-flex">
+                      <img src="assets/img/profile-pic.svg" alt="" />
+                      <h5>
+                        John Doe
+                        <br />
+                        <small>Online</small>
+                      </h5>
+                    </div>
+                    <div class="head-rgt d-flex">
+                      <i class="fa fa-search"></i>
+                      <i class="fa fa-paperclip"></i>
+                      <i class="fa fa-ellipsis-v"></i>
+                    </div>
+                  </div>
+                  <!-- chat body -->
+                  <div class="chat-body">
+                    <div class="recieve-msg cht">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Malesuada ante dignissim amet sit sagittis a eget
+                        tincidunt. Dignissim nec proin lorem vitae quam.
+                        Ultrices cras proin eget maecenas.
+                      </p>
+                      <div class="time">
+                        <small>7:41pm</small>
+                      </div>
+                    </div>
+
+                    <div class="sent cht">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      </p>
+                      <div class="time">
+                        <small>7:41pm</small>
+                      </div>
+                    </div>
+                    <div class="sent cht">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Malesuada ante dignissim amet sit sagittis a eget
+                        tincidunt. Dignissim nec proin lorem vitae quam.
+                        Ultrices cras proin eget maecenas.
+                      </p>
+                      <div class="time">
+                        <small>7:41pm</small>
+                      </div>
+                    </div>
+
+                    <div class="recieve-msg cht">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Malesuada ante dignissim amet sit sagittis a eget
+                        tincidunt. Dignissim nec proin lorem vitae quam.
+                        Ultrices cras proin eget maecenas.
+                      </p>
+                      <div class="time">
+                        <small>7:41pm</small>
+                      </div>
+                    </div>
+                    <div class="recieve-msg cht">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Malesuada ante dignissim amet sit sagittis a eget
+                        tincidunt. Dignissim nec proin lorem vitae quam.
+                        Ultrices cras proin eget maecenas.
+                      </p>
+                      <div class="time">
+                        <small>7:41pm</small>
+                      </div>
+                    </div>
+
+                    <div class="sent cht">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      </p>
+                      <div class="time">
+                        <small>7:41pm</small>
+                      </div>
+                    </div>
+                    <div class="sent cht">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Malesuada ante dignissim amet sit sagittis a eget
+                        tincidunt. Dignissim nec proin lorem vitae quam.
+                        Ultrices cras proin eget maecenas.
+                      </p>
+                      <div class="time">
+                        <small>7:41pm</small>
+                      </div>
+                    </div>
+
+                    <div class="recieve-msg cht">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Malesuada ante dignissim amet sit sagittis a eget
+                        tincidunt. Dignissim nec proin lorem vitae quam.
+                        Ultrices cras proin eget maecenas.
+                      </p>
+                      <div class="time">
+                        <small>7:41pm</small>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- chat foot -->
+                  <div class="chat-foot bg-wte">
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1"
+                          ><i class="fa fa-paperclip"></i
+                        ></span>
+                      </div>
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Type a message"
+                        aria-describedby="basic-addon1"
+                      />
+                    </div>
+                    <button class="btn btn-msg">
+                      <i class="fa fa-send-o"></i>
+                    </button>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/bootstrap-js/jquery.js"></script>
+    <script src="assets/js/bootstrap-js/bootstrap.js"></script>
+    <script src="assets/js/bootstrap-js/popper.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <!-- <script src="assets/js/custom.js"></script> -->
+    <script src="assets/js/dash.js"></script>
+  </body>
+</html>
