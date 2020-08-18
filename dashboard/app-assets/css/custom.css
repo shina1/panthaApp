@@ -1,0 +1,105 @@
+body{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; 
+}
+
+.profile-content-top{
+	margin-top:50px;
+}
+.profile-content-top .card-footer h3{
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+color: #04172A;
+}
+
+.profile-content-top .card-footer small{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+
+.profile-content{
+	margin-top:130px;
+	padding:10px 0;
+}
+
+.profile-content .profile-title h4{
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #04172A;
+}
+
+.profile-links{
+	
+}
+.profile-links li{
+list-style-type: none;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 25px;
+color: #04172A;
+margin:15px 0;
+padding:10px 0;
+}
+
+.profile-links li a i{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #4D49FF;
+padding:10px 0 10px 10px;
+/*margin:10px 0;*/
+}
+
+.profile-details-card .card-details small{
+margin-left:30px;
+padding-top: 10px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+color: #04172A;
+}
+
+.card-bio p{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: #000000;
+}
+.btn-prf-1{
+background: #B27A12;
+box-shadow: 0px 5px 25px rgba(77, 73, 255, 0.25);
+border-radius: 5px;
+font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+color: #FFFFFF;
+padding:10px 30px;
+}
+.btn-prf-2{
+background: #3F3356;
+box-shadow: 0px 5px 25px rgba(77, 73, 255, 0.25);
+border-radius: 5px;
+font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+color: #FFFFFF;	
+}
+/*chat page styling starts here*/
+
+.chat-sidebar-list li{
+background: #FFFFFF;
+border: 1px solid rgba(4, 23, 42, 0.1);
+box-sizing: border-box;
+border-radius: 5px;
+margin:10px 0;
+}
