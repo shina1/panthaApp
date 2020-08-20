@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <meta name="description" content="Frest admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-    <meta name="keywords" content="peer to peer, delivery, traveller, Pantha, pantha nation, web app">
+    <meta name="keywords" content="peer to peer, delivery, traveller, flat admin template, responsive admin template, web app">
     <meta name="Pantha Team" content="Pantha Nation">
     <title>Dashboard | Pantha Nation</title>
     <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
@@ -254,139 +254,213 @@
             <div class="content-header row">
             </div>
             <div class="content-body">
-                <!-- Dashboard content Starts -->
-                <section id="dashboard-ecommerce">
-                    <!-- profile page top -->
-                    <div class="row profile-content-top"> 
-                        <div class="col-xl-12 col-md-12 col-12 ">
-                            <button type="button" class="btn  btn-prf-verify shadow mr-1 mb-1" data-toggle="modal" data-target="#exampleModalCenter">Verify Account</button>
-                            <div class="card text-center" style="background:#3F3356; background-image:url(../../../img/dash-top.svg);background-repeat: no-repeat;background-size: cover; border-radius:10px; height:13vh;">
-                                
-                                <div class="card-content"style="margin-top:30px;" >
-                                                <img src="../../../img/profile-pic.svg" height="120" width="120"  alt="user profile" style=" border:4px solid #fff; border-radius:100px;" />   
-                                </div>
-                                <div class="card-footer">
-                                  <h3>John Doe</h3>
-                                  <small>Product Designer</small>
-                                </div>
-                            </div>
-                             <!-- Vertically Centered modal Modal -->
-                                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                            <div class="modal-dialog modal-dialog-centered modal-dialog-centered modal-dialog-scrollable" role="document">
-                                                <div class="modal-content">
-                                                    <div class="text-right">
-                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin:20px;">
-                                                            <i class="bx bx-x"></i>
-                                                        </button>
-                                                    </div>
-                                                    <div class="modal-body text-center">
-                                                        <h3>Verify your email address</h3>
-                                                        <p>
-                                                           You’re almost ready to start enjoying Pantha. Simply click the big yellow button below to verify your email address.
-                                                        </p>
-                                                        <button type="button" class="btn btn-modal ml-1">
-                                                            <span class="d-none d-sm-block">Verify email address</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
+                <!-- users edit start -->
+                <section class="users-edit">
+                    <div class="card" style="background:none;">
+                        <div class="card-content">
+                            <div class="card-body">
+                                <div class="tab-content">
+                                    <div class="tab-pane active fade show" id="account" aria-labelledby="account-tab" role="tabpanel">
+                                        <!-- users edit media object start -->
+                                        <div class="media mb-2 text-center">
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Let's get started with few detials about you</h4>
+                                                <h6>Personal Information</h6>
                                             </div>
                                         </div>
+                                        <!-- users edit media object ends -->
+                                        <!-- users edit account form start -->
+                                       <div class="user-edit-form">
+                                            <form novalidate class="m-auto">
+                                                <div class="row">
+                                                    <div class="col-lg-5 col-md-10 col-sm-10">
+                                                        <div class="form-group">
+                                                            <div class="controls">
+                                                                <label>First Name</label>
+                                                                <input type="text" class="form-control" placeholder="John" value="dean3004" required data-validation-required-message="This username field is required">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="controls">
+                                                                <label>Phone number</label>
+                                                                <input type="text" class="form-control" placeholder=" +2348033333300" value="Dean Stanley" required data-validation-required-message="This name field is required">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="controls">
+                                                                <label>Your Bio</label>
+                                                                <input type="text" class="form-control" placeholder=" A little bit about yourself" value="deanstanley@gmail.com" required data-validation-required-message="This email field is required">
+                                                            </div>
+                                                        </div>
+                                                         <div class="form-group">
+                                                            <div class="controls">
+                                                                <label>Instagram</label>
+                                                                <input type="text" class="form-control" placeholder="https://websitedomain.com" value="Dean Stanley" required data-validation-required-message="This field is required">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="controls">
+                                                                <label>Twitter Link</label>
+                                                                <input type="text" class="form-control" placeholder="https://websitedomain.com" value="https://websitedomain.com" required data-validation-required-message="This email field is required">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-5 col-md-10 col-sm-10">
+                                                        <div class="form-group">
+                                                            <div class="controls">
+                                                                <label>Last Name</label>
+                                                                <input type="text" class="form-control" placeholder="Doe" value="Dean Stanley" required data-validation-required-message="This name field is required">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="controls">
+                                                                <label>Your Email address</label>
+                                                                <input type="email" class="form-control" placeholder="username@domain.com" value="username@domain.com" required data-validation-required-message="This email field is required">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Home address</label>
+                                                            <input type="text" class="form-control" placeholder="Address">
+                                                        </div>
+                                                         <div class="form-group">
+                                                            <div class="controls">
+                                                                <label>Facebook Link</label>
+                                                                <input type="text" class="form-control" placeholder="https://websitedomain.com" value="https://websitedomain.com" required data-validation-required-message="This name field is required">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="controls">
+                                                                <label>Linkedin Link</label>
+                                                                <input type="email" class="form-control" placeholder="https://websitedomain.com" value="https://websitedomain.com" required data-validation-required-message="This email field is required">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-11 d-flex flex-sm-row flex-column justify-content-center mt-1">
+                                                        <button type="submit" class="btn btn-edit glow mb-1 mb-sm-0 mr-0 mr-sm-1">Save
+                                                            changes</button>
+                                                    </div>
 
-                        </div>
-                       
-                    </div>
-                    <div class="row profile-content m-auto">
-                        <!-- profile links Starts -->
-                        <div class="col-md-10 col-12 col-xl-4">
-                            <span class="profile-title"><h4>Links</h4></span>
-                            <div class="card profile-links-card"> 
-                                <div class="card-content">
-                                        <div class="card-body py-1">
-                                            <div class="d-flex justify-content-between align-items-center mb-2">
-                                               <ul class="profile-links">
-                                                   <li>Instagram <br><a href="#"><i class="fa fa-link">Instagram.com</i></a></li>
-                                                   <li>Twitter <br><a href="#"><i class="fa fa-link">twitter.com</i></a></li>
-                                                   <li>Facebook <br><a href="#"><i class="fa fa-link">facebook.com</i></a></li>
-                                                   <li>LinkedIn <br><a href="#"><i class="fa fa-link">linkedIn.com</i></a></li>
-                                               </ul>             
-                                             </div>           
+                                                </div>
+                                        </form>
+                                       </div>
+                                        <!-- users edit account form ends -->
+                                    </div>
+                                    <div class="tab-pane fade show" id="information" aria-labelledby="information-tab" role="tabpanel">
+                                        <!-- users edit Info form start -->
+                                        <form novalidate>
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6">
+                                                    <h5 class="mb-1"><i class="bx bx-link mr-25"></i>Social Links</h5>
+                                                    <div class="form-group">
+                                                        <label>Twitter</label>
+                                                        <input class="form-control" type="text" value="https://www.twitter.com/">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>Facebook</label>
+                                                        <input class="form-control" type="text" value="https://www.facebook.com/">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>Google+</label>
+                                                        <input class="form-control" type="text">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>LinkedIn</label>
+                                                        <input class="form-control" type="text">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>Instagram</label>
+                                                        <input class="form-control" type="text" value="https://www.instagram.com/">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 mt-1 mt-sm-0">
+                                                    <h5 class="mb-1"><i class="bx bx-user mr-25"></i>Personal Info</h5>
+                                                    <div class="form-group">
+                                                        <div class="controls position-relative">
+                                                            <label>Birth date</label>
+                                                            <input type="text" class="form-control birthdate-picker" required placeholder="Birth date" data-validation-required-message="This birthdate field is required">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>Country</label>
+                                                        <select class="form-control" id="accountSelect">
+                                                            <option>USA</option>
+                                                            <option>India</option>
+                                                            <option>Canada</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>Languages</label>
+                                                        <select class="form-control" id="users-language-select2" multiple="multiple">
+                                                            <option value="English" selected>English</option>
+                                                            <option value="Spanish">Spanish</option>
+                                                            <option value="French">French</option>
+                                                            <option value="Russian">Russian</option>
+                                                            <option value="German">German</option>
+                                                            <option value="Arabic" selected>Arabic</option>
+                                                            <option value="Sanskrit">Sanskrit</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="controls">
+                                                            <label>Phone</label>
+                                                            <input type="text" class="form-control" required placeholder="Phone number" value="(+656) 254 2568" data-validation-required-message="This phone number field is required">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="controls">
+                                                            <label>Address</label>
+                                                            <input type="text" class="form-control" placeholder="Address" data-validation-required-message="This Address field is required">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label>Website</label>
+                                                        <input type="text" class="form-control" placeholder="Website address">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>Favourite Music</label>
+                                                        <select class="form-control" id="users-music-select2" multiple="multiple">
+                                                            <option value="Rock">Rock</option>
+                                                            <option value="Jazz" selected>Jazz</option>
+                                                            <option value="Disco">Disco</option>
+                                                            <option value="Pop">Pop</option>
+                                                            <option value="Techno">Techno</option>
+                                                            <option value="Folk" selected>Folk</option>
+                                                            <option value="Hip hop">Hip hop</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label>Favourite movies</label>
+                                                        <select class="form-control" id="users-movies-select2" multiple="multiple">
+                                                            <option value="The Dark Knight" selected>The Dark Knight
+                                                            </option>
+                                                            <option value="Harry Potter" selected>Harry Potter</option>
+                                                            <option value="Airplane!">Airplane!</option>
+                                                            <option value="Perl Harbour">Perl Harbour</option>
+                                                            <option value="Spider Man">Spider Man</option>
+                                                            <option value="Iron Man" selected>Iron Man</option>
+                                                            <option value="Avatar">Avatar</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 d-flex flex-sm-row flex-column justify-content-end mt-1">
+                                                    <button type="submit" class="btn btn-primary glow mb-1 mb-sm-0 mr-0 mr-sm-1">Save
+                                                        changes</button>
+                                                    <button type="reset" class="btn btn-light">Cancel</button>
+                                                </div>
                                             </div>
-                                                   
-                                    </div>        
-                                </div>
-                        </div>
-                        <!-- profile fullname card Starts -->
-                        <div class="col-md-10 col-12 col-xl-4 profile-details-card ">
-                             <span class="profile-title"><h4>Full Name</h4></span>
-                            <div class="card">
-                                <div class="card-content">
-                                    <div class="card-body py-1">
-                                        <div class="d-flex  align-items-center mb-2 card-details">
-                                            <i class="fa fa-industry"></i><small>John Doe</small>            
-                                         </div>                
+                                        </form>
+                                        <!-- users edit Info form ends -->
                                     </div>
-                                               
-                                </div>
-                            </div>
-                            <span class="profile-title"><h4>Email Address</h4></span>
-                             <div class="card">
-                                <div class="card-content">
-                                    <div class="card-body py-1">
-                                        <div class="d-flex  align-items-center mb-2 card-details">
-                                             <i class="fa fa-envelope-o"></i><small>Username@Domain.com</small>           
-                                         </div>          
-                                    </div>
-                                               
-                                </div>
-                            </div>
-                            <span class="profile-title"><h4>Home address</h4></span>
-                             <div class="card">
-                                <div class="card-content">
-                                    <div class="card-body py-1">
-                                        <div class="d-flex card-details align-items-center mb-2">
-                                              <i class="fa fa-home"></i><small>Town Name, Country Name</small>          
-                                         </div>           
-                                    </div>
-                                               
-                                </div>
-                            </div>
-                            <span class="profile-title"><h4>Phone number</h4></span>
-                             <div class="card">
-                                <div class="card-content">
-                                    <div class="card-body py-1">
-                                        <div class="d-flex card-details  align-items-center mb-2">
-                                              <i class="fa fa-phone"></i><small>+2348033333300</small>          
-                                         </div>          
-                                    </div>
-                                               
                                 </div>
                             </div>
                         </div>
-                        <!--profile Bio card Starts -->
-                        <div class="col-md-10 col-12 col-xl-4 dashboard-order-summary">
-                             <span class="profile-title"><h4>Bio</h4></span>
-                            <div class="card">
-                                <div class="card-content">
-                                    <div class="card-body py-1">
-                                        <div class="d-flex   align-items-center mb-2 card-bio">
-                                              <p class="card-text">
-                                                  Google’s mission is to organize the world‘s information and make it universally accessible and useful. Since our founding in 1998, Google has grown by leaps and bounds. From offering search in a single language we now offer dozens of products and services.
-                                              </p>          
-                                         </div>             
-                                    </div>         
-                                </div>
-                            </div>
-                        </div>                  
                     </div>
-                      <div class="row">
-                          <div class="col-6 d-flex justify-content-between text-center m-auto mt-3">
-                               <button type="button" class="btn  btn-prf-1 shadow mr-1 mb-1">Send a package</button>
-                                <button type="button" class="btn btn-prf-2 shadow mr-1 mb-1">Become a Traveller</button>
-                          </div>
-                      </div>     
                 </section>
-                <!-- Dashboard Ecommerce ends -->
-
+                <!-- users edit ends -->
             </div>
         </div>
     </div>
@@ -487,9 +561,9 @@
     <script src="../../../app-assets/js/scripts/components.js"></script>
     <script src="../../../app-assets/js/scripts/footer.js"></script>
     <!-- END: Theme JS-->
-
-    <!-- BEGIN: Page JS-->
-    <!-- <script src="../../../app-assets/js/scripts/pages/dashboard-ecommerce.js"></script> -->
+     <!-- BEGIN: Page JS-->
+    <script src="../../../app-assets/js/scripts/pages/page-users.js"></script>
+    <script src="../../../app-assets/js/scripts/navs/navs.js"></script>
     <!-- END: Page JS-->
 
 </body>
