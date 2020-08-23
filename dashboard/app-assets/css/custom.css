@@ -1,297 +1,455 @@
-body{
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.text-title{
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 36px;
-text-align: center;
-color: #FFFFFF;
+.text-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
 }
 
-.profile-content-top{
-	margin-top:50px;
+.profile-content-top {
+  margin-top: 50px;
 }
-.profile-content-top .card-footer h3{
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-color: #04172A;
-}
-
-.profile-content-top .card-footer small{
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-color: #000000;
+.profile-content-top .card-footer h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #04172a;
 }
 
-.profile-content{
-	margin-top:130px !important;
-	padding:10px 0;
+.profile-content-top .card-footer small {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
 }
 
-.profile-content .profile-title h4{
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
-color: #04172A;
+.profile-content {
+  margin-top: 130px !important;
+  padding: 10px 0;
 }
 
-.profile-links{
-	
-}
-.profile-links li{
-list-style-type: none;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 25px;
-color: #04172A;
-margin:15px 0;
-padding:10px 0;
+.profile-content .profile-title h4 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #04172a;
 }
 
-.profile-links li a i{
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-color: #4D49FF;
-padding:10px 0 10px 10px;
-/*margin:10px 0;*/
+.profile-links {
+}
+.profile-links li {
+  list-style-type: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  color: #04172a;
+  margin: 15px 0;
+  padding: 10px 0;
 }
 
-.profile-details-card .card-details small{
-margin-left:20px;
-padding-top: 10px;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 18px;
-color: #04172A;
-}
-.profile-details-card .card-details i{
-	color:#04172A;
-	font-size:20px;
-	padding-top: 10px;
+.profile-links li a i {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4d49ff;
+  padding: 10px 0 10px 10px;
+  /*margin:10px 0;*/
 }
 
-.card-bio p{
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-color: #000000;
+.profile-details-card .card-details small {
+  margin-left: 20px;
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #04172a;
 }
-/*button stylings*/
-.btn-prf-1{
-background: #B27A12;
-box-shadow: 0px 5px 25px rgba(77, 73, 255, 0.25);
-border-radius: 5px;
-font-weight: 500;
-font-size: 16px;
-line-height: 23px;
-color: #FFFFFF;
-padding:10px 30px;
+.profile-details-card .card-details i {
+  color: #04172a;
+  font-size: 20px;
+  padding-top: 10px;
 }
-.btn-prf-2{
-background: #3F3356;
-box-shadow: 0px 5px 25px rgba(77, 73, 255, 0.25);
-border-radius: 5px;
-font-weight: 500;
-font-size: 14px;
-line-height: 23px;
-color: #FFFFFF;	
+
+.card-bio p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
 }
-.btn-prf-verify{
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 23px;
-text-align: right;
-background: #805300;
-border-radius: 5px;
-color: #FFFFFF;
+/*===================button stylings====================*/
+.btn-transparent {
+  background: #fff;
+  color: rgba(0, 0, 0, 0.47);
+  border: 1px solid rgba(4, 23, 42, 0.1);
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 0 10px;
 }
-.btn:hover,active{
-	color:#fff;
+.btn-seperate {
+  background: #3f3356;
+  box-shadow: 0px 5px 25px rgba(77, 73, 255, 0.25);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+  margin: 0 10px;
 }
-.btn-modal{
-font-family: Open Sans;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 26px;
-width:80%;
-text-align: center;
-color: #FFFFFF;
-background: #3F3356;
-border: 1px solid #3F3356;
-box-sizing: border-box;
-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
-border-radius: 5px;
+.btn-prf-1 {
+  background: #b27a12;
+  box-shadow: 0px 5px 25px rgba(77, 73, 255, 0.25);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+  padding: 10px 30px;
 }
-.btn-edit{
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 23px;
-color: #FFFFFF;
-background: #3F3356;
-box-shadow: 0px 5px 25px rgba(77, 73, 255, 0.25);
-border-radius: 5px;
+.btn-prf-2 {
+  background: #3f3356;
+  box-shadow: 0px 5px 25px rgba(77, 73, 255, 0.25);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.btn-prf-verify {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 23px;
+  text-align: right;
+  background: #805300;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.btn:hover,
+active {
+  color: #fff;
+}
+.btn-modal {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  width: 80%;
+  /*padding:20px;*/
+  text-align: center;
+  color: #ffffff;
+  background: #3f3356;
+  border: 1px solid #3f3356;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+.btn-edit {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+  background: #3f3356;
+  box-shadow: 0px 5px 25px rgba(77, 73, 255, 0.25);
+  border-radius: 5px;
 }
 /*button styling ends*/
 
 /*chat page styling starts here*/
 
-.chat-sidebar-list li{
-background: #FFFFFF;
-border: 1px solid rgba(4, 23, 42, 0.1);
-box-sizing: border-box;
-border-radius: 5px;
-margin:10px 0;
+.chat-sidebar-list li {
+  background: #ffffff;
+  border: 1px solid rgba(4, 23, 42, 0.1);
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 10px 0;
 }
 
 /*support page custom styling*/
 
-.support-card h5{
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-color: #3F3356;
-margin:20px 0;
+.support-card h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #3f3356;
+  margin: 20px 0;
 }
 
-.support-card ul li{
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-/*text-align: center;*/
-color: #04172A;
-list-style-type: none;
-margin:10px 0;
+.support-card ul li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /*text-align: center;*/
+  color: #04172a;
+  list-style-type: none;
+  margin: 10px 0;
 }
-.support-top-card{
-	width:350px;
-	margin:20px auto;
-	padding:10px;
+.support-top-card {
+  width: 350px;
+  margin: 20px auto;
+  padding: 10px;
 }
-.support-top-card input{
-	width:300px;
-	margin: 0 auto;
-	margin-top:25px;
+.support-top-card input {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 25px;
 }
 /*modal styling*/
 
-.modal-body h3{
-font-family: "Open Sans";
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 41px;
-color: #000000;
+.modal-body h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 41px;
+  color: #000000;
 }
-.modal-body p{
-font-family: "Open Sans";
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 41px;
-color: #000000;
+.modal-body p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 41px;
+  color: #000000;
 }
 /*settings edit profile page styling*/
-.users-edit .card{
-	
+.users-edit .card {
 }
-.users-edit .tab-pane{
-	
+.users-edit .tab-pane {
 }
-.user-edit-form{
-	/*border:2px solid red;*/
-	width:70%;
-	margin:0 auto;
-	margin-top:80px !important;
-	justify-content: center;
-	align-items: center;
-	padding-left:6rem;
+.user-edit-form {
+  /*border:2px solid red;*/
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 80px !important;
+  justify-content: center;
+  align-items: center;
+  padding-left: 6rem;
 }
-.user-edit-form input{
-	margin:10px 0;
+.user-edit-form input {
+  margin: 10px 0;
 }
-.user-edit-form label{
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 23px;
-color: #04172A;
+.user-edit-form label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #04172a;
 }
-.user-edit-form .controls input::placeholder{
-	display:none;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 23px;
-color: #989393;
+.user-edit-form .controls input::placeholder {
+  display: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #989393;
 }
-.media-body h4{
-	color:#3F3356;
-	/*font-size: 20px;*/
-	font-style:normal;
-	font-family: "Open Sans";
-	font-style:bolder;
-	line-height:36px;
+.media-body h4 {
+  color: #3f3356;
+  /*font-size: 20px;*/
+  font-style: normal;
+  font-family: "Open Sans";
+  font-style: bolder;
+  line-height: 36px;
 }
-.media-body h6{
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 23px;
-color: #04172A;
+.media-body h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 23px;
+  color: #04172a;
 }
 /*styling for  email setting page*/
-.edit-email-card{
-	background:none;
-	margin-top:50px;
+.edit-email-card {
+  background: none;
+  margin-top: 50px;
 }
 
-.edit-email-card .card-body h4{
+.edit-email-card .card-body h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #04172a;
+}
+.radio-group .radio {
+  padding: 10px 0;
+}
+.content-wrap {
+  width: 45rem;
+  margin: 50px auto;
+  padding: 20px;
+}
+.content-wrap-list p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #04172a;
+}
+.content-wrap-list label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #04172a;
+}
+
+.content-wrap-list {
+  margin: 20px 0;
+}
+/*styling for change password page*/
+.change-password {
+  background: none;
+}
+.change-password .form-group {
+  margin: 20px 0;
+}
+
+.change-password .form-group label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 40px;
+  color: #04172a;
+}
+/*styling for sending package page*/
+
+.send-package-body {
+  padding: 5px 0;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.snd-pck-rgt .card {
+  /*background: #E5E5E5;*/
+  background: none;
+  box-shadow: none;
+}
+.snd-pck-rgt form fieldset {
+  margin-top: 20px;
+}
+.snd-pck-rgt form fieldset input[type="file"] {
+  display: none !important;
+}
+.snd-pck-rgt form fieldset label {
+  font-size: 14px;
+  line-height: 46px;
+  color: #04172a;
+}
+
+.snd-pck-rgt .card-content h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 41px;
+  color: #3f3356;
+}
+.snd-pck-rgt .card-content h6 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 41px;
+  color: #000000;
+}
+
+.total-cost h4 {
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  line-height: 35px !important;
+  color: #04172a !important;
+}
+
+.total-cost h4 > span {
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 23px;
+  color: #04172a;
+}
+
+.snd-pck-lft .snd-pck-lft-btm {
+  height: 65vh;
+  background-image: url(../../img/background.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center
+}
+.snd-pck-lft .card {
+  /*background: #E5E5E5;*/
+  background: none;
+  box-shadow: none;
+}
+/*atyling for payment page modal*/
+.modal-header h5{
+font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 23px;
-color: #04172A;
+color: #000000;
 }
-.radio-group .radio {
-	padding:10px 0;
+.mod-cont{
+	width:100%;
+	padding:5px;
 }
-.content-wrap{
-	width:45rem;
-	margin:50px auto;
-	padding:20px;
-}
-.content-wrap-list p{
+.mod-cont label{
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
+font-size: 13px !important;
 line-height: 23px;
 color: #04172A;
 }
-.content-wrap-list label{
+.mod-cont img{
+	height:70px;
+	padding: 5px;
+}
+.mod-lft{
+	/*width: 50%;*/
+	padding:10px 10px;
+}
+.mod-cont .mod-lft h6{
 font-style: normal;
-font-weight: normal;
-font-size: 16px;
+font-weight: 500;
+font-size: 20px;
 line-height: 23px;
-color: #04172A;
+color: #000000;
+}
+.mod-rgt{
+	/*width:50%;*/
+	padding:5px 10px;
+	margin-top: 40px;
+}
+/*@media (max-width: 575.98px) {
+  .mod-lft{
+  	width:100;
+  }
+}*/
+/*styling for mmodal succes page*/
+.mod-cont-success{
+	/*border:2px solid red;*/
+	width:60%;
+	margin:0 auto;
+	flex-direction:column;
 }
 
-.content-wrap-list{
-	margin:20px 0;
+.mod-cont-success h3{
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 46px;
+color: #04172A;
 }
