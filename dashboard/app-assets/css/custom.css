@@ -7,9 +7,15 @@ body {
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
-  line-height: 36px;
+  line-height: 48px;
   text-align: center;
   color: #ffffff;
+}
+.text-sub-title{
+font-weight: 500;
+font-size: 15px;
+line-height: 35px;
+color: #000000
 }
 
 .profile-content-top {
@@ -453,3 +459,54 @@ font-size: 24px;
 line-height: 46px;
 color: #04172A;
 }
+
+/*styling for delivery company page*/
+
+.available-company-body .avail-lft .card{
+	background:none;
+	box-shadow:none;
+}
+
+.available-company-body .avail-rgt .card{
+	background:none;
+	box-shadow:none;
+}
+
+.available-company-body .avail-lft .card h4{
+font-weight: 600;
+font-size: 32px;
+line-height: 41px;
+color: #3F3356;
+}
+.available-company-body .avail-lft .card h6{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 41px;
+color: #000000;
+}
+.available-company-body .avail-lft .card table thead{
+	background: #000000;
+	opacity: 0.5;
+}
+.available-company-body  table thead tr th{
+color:#fff;
+font-weight: 600;
+font-size: 16px;
+line-height: 23px;
+}
+.available-company-body  table tbody tr:nth-child(2){
+background: #C4C4C4;
+opacity: 0.8;
+}
+.available-company-body  table tbody tr:hover{
+background: #3F3356;
+opacity: 0.85;
+box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+.available-company-body  table tbody tr td{
+font-size: 14px;
+line-height: 23px;
+color: #000000;
+}
+
